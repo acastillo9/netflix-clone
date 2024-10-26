@@ -1,0 +1,87 @@
+.category {
+    padding-left: 1.8rem;
+    margin-bottom: 2.5rem;
+}
+
+.category .movies .movie:last-child {
+    margin-right: 2rem;
+}
+
+.category .movies .movie a {
+    display: block;
+}
+
+.category .movies .movie img {
+    width: 170px;
+    max-width: 170px;
+}
+
+.carousel {
+    position: relative;
+}
+
+.carousel .carousel-inner {
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel .carousel-visible {
+    display: flex;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.categories .carousel-visible::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel .carousel-items {
+    display: flex;
+}
+
+.carousel .carousel-button {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .2);
+    color: #fff;
+    padding: 0 0.5rem;
+    border: none;
+    cursor: pointer;
+    display: none;
+    width: 4%;
+    background: rgba(0, 0, 0, .5);
+}
+
+.carousel .carousel-button:hover {
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.carousel .carousel-button.prev {
+    left: 0;
+}
+
+.carousel .carousel-button.next {
+    right: 0;
+}
+
+.carousel .carousel-pagination {
+    position: absolute;
+    right: 4%;
+    top: 0;
+    margin: -30px 0 12px;
+}
+
+.carousel .carousel-pagination li {
+    list-style: none;
+    background-color: #4d4d4d;
+    display: inline-block;
+    height: 2px;
+    margin-left: 1px;
+    width: 12px;
+}
+
+.carousel .carousel-pagination li.active {
+    background-color: #aaa;
+}
